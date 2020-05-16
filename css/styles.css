@@ -1,0 +1,255 @@
+:root {
+  --color-of-main-text: #212121;
+  --color-of-second-text: #757575;
+  --akcent: #2196f3;
+  --white-color: #ffffff;
+  --developed-by: rgba(255, 255, 255, 0.4);
+  --second-color-background: #f5f4fa;
+  --secondary-buttom-background: #f5f4fa;
+  --background-footer: #2f303a;
+  --footer-text: rgba(255, 255, 255, 0.6);
+}
+
+/* color of main text #212121; */
+/* color of the second text #757575; */
+/* white color #ffffff; */
+/* akcent #2196F3; */
+/* developed by rgba(255, 255, 255, 0.4); */
+/* the second color of background #F5F4FA; */
+
+/*body*/
+body {
+  color: var(--color-of-second-text);
+  background-color: var(--white-color);
+  font-family: roboto, sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*logo*/
+.logo {
+  color: var(--color-of-main-text);
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+}
+.logo.main {
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo.secondary {
+  font-size: 22px;
+  line-height: 1.18;
+}
+span {
+  color: var(--akcent);
+}
+.span {
+  color: var(--white-color);
+}
+
+/* navigtion */
+.site-nav a {
+  color: var(--color-of-main-text);
+}
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--akcent);
+}
+.site-nav .link.current {
+  color: var(--akcent);
+}
+
+.connection a {
+  color: var(--color-of-main-text);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+}
+.connection a:hover,
+.connection a:focus {
+  color: var(--akcent);
+}
+/* main part */
+
+.section.advantages .section-title {
+  color: var(--color-of-main-text);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.section.advantage,
+.section.feathure,
+.section.team,
+.section.clients,
+footer {
+  letter-spacing: 0.03em;
+}
+.section.advantages p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* banner */
+
+.banner {
+  text-align: center;
+  color: var(--color-of-main-text);
+  letter-spacing: 0.06em;
+}
+.banner-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+/* buttom */
+.buttom.primary {
+  color: var(--white-color);
+  background-color: var(--akcent);
+  letter-spacing: 0.06em;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.87;
+}
+button:hover,
+button:focus {
+  color: var(--white-color);
+  background-color: var(--akcent);
+}
+button {
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.icon:hover,
+.icon:focus {
+  background-color: var(--akcent);
+}
+
+.feathure h2 {
+  text-align: center;
+}
+.team h2 {
+  text-align: center;
+}
+.clients h2 {
+  text-align: center;
+}
+
+/*In general hear shold have been the second page*/
+.projects h3,
+h1 {
+  color: var(--color-of-main-text);
+}
+.projects p {
+  color: var(--color-of-second-text);
+}
+.first-paragraf {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+.second-paragraf {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+}
+.projects h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.section.feathure .section-title {
+  color: var(--color-of-main-text);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.section.feathure p {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.section.team {
+  background-color: var(--second-color-background);
+}
+.section.team .section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--color-of-main-text);
+}
+.section.team .own-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--color-of-main-text);
+}
+.section.team .own-skills {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.section.clients .section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--color-of-main-text);
+}
+address {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  color: var(--footer-text);
+}
+address .address-first {
+  color: var(--white-color);
+}
+address .address-second {
+  color: var(--footer-text);
+}
+div b {
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+.goit {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 2;
+  color: var(--footer-text);
+}
+.main-name {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
+footer {
+  background-color: var(--background-footer);
+}
