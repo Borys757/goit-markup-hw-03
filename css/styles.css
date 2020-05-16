@@ -17,6 +17,20 @@
 /* developed by rgba(255, 255, 255, 0.4); */
 /* the second color of background #F5F4FA; */
 
+/* Making border-box type of box model*/
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/*header li {
+  display: inline-block;
+  margin-right: 10px;
+}*/
+
 /*body*/
 body {
   color: var(--color-of-second-text);
