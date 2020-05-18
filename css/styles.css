@@ -105,6 +105,10 @@ span {
 .connection a:focus {
   color: var(--akcent);
 }
+.connection {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
 /* main part */
 
 .section.advantages .section-title {
@@ -114,6 +118,18 @@ span {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.advantages-title {
+  margin-top: 0px;
+}
+.advantages-title p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.advantages-title img {
+  margin-bottom: 30px;
 }
 .section.advantage,
 .section.feathure,
@@ -128,6 +144,10 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.section.advantages {
+  outline: 2px solid tomato;
+}
+
 /* banner */
 
 .banner {
@@ -139,6 +159,9 @@ footer {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  outline: 2px solid tomato;
+  margin-top: 0px;
+  margin-bottom: 46px;
 }
 /* buttom */
 .buttom.primary {
