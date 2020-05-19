@@ -149,10 +149,10 @@ footer {
   padding-top: 94px;
   padding-bottom: 94px;
   outline: 2px solid tomato;
-  margin-bottom: 94px;
+  margin-bottom: 0px;
 }
 
-.advantages {
+.container {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -251,6 +251,12 @@ h1 {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+.section.feathure {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  outline: 2px solid tomato;
+  margin-bottom: 0px;
+}
 .section.feathure .section-title {
   color: var(--color-of-main-text);
   font-weight: bold;
@@ -258,6 +264,10 @@ h1 {
   line-height: 1.16;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
+}
+.feathure-title {
+  padding: 0px;
+  margin: 0px;
 }
 .section.feathure p {
   font-weight: bold;
@@ -267,11 +277,22 @@ h1 {
 }
 .section.team {
   background-color: var(--second-color-background);
+  padding-top: 94px;
+  padding-bottom: 94px;
+  outline: 2px solid tomato;
+  margin-bottom: 0px;
 }
+.section.team ul {
+  padding: 0px;
+  margin: 0px;
+}
+
 .section.team .section-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
+  margin-bottom: 50px;
+  margin-top: 0px;
   color: var(--color-of-main-text);
 }
 .section.team .own-name {
@@ -280,17 +301,37 @@ h1 {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--color-of-main-text);
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
 .section.team .own-skills {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+
+.team-title img {
+  margin-bottom: 30px;
 }
 .section.clients .section-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   color: var(--color-of-main-text);
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.section.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  outline: 2px solid tomato;
+  margin-bottom: 0px;
+}
+.section.clients ul {
+  padding: 0px;
+  margin: 0px;
 }
 address {
   font-weight: normal;
@@ -312,10 +353,13 @@ div b {
   text-transform: uppercase;
 }
 .goit {
+  text-align: center;
   font-weight: normal;
   font-size: 12px;
   line-height: 2;
   color: var(--footer-text);
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .main-name {
   font-weight: 900;
@@ -325,4 +369,7 @@ div b {
 }
 footer {
   background-color: var(--background-footer);
+  padding-top: 56px;
+  padding-bottom: 21px;
+  outline: 2px solid tomato;
 }
