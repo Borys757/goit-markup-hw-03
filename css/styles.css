@@ -85,12 +85,13 @@ span {
   font-size: 14px;
   letter-spacing: 0.02em;
   line-height: 1.14;
+  color: var(--akcent);
 }
 .site-nav a:hover,
 .site-nav a:focus {
   color: var(--akcent);
 }
-.site-nav .link.current {
+.link.current {
   color: var(--akcent);
 }
 
@@ -166,12 +167,13 @@ footer {
   text-align: center;
   color: var(--color-of-main-text);
   letter-spacing: 0.06em;
+  outline: 2px solid tomato;
 }
 .banner-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  outline: 2px solid tomato;
+
   margin-top: 0px;
   margin-bottom: 46px;
 }
@@ -203,7 +205,10 @@ button {
   font-size: 16px;
   line-height: 1.62;
 }
-
+.buttons {
+  padding-left: 0px;
+  margin: 0px;
+}
 .icon:hover,
 .icon:focus {
   background-color: var(--akcent);
@@ -229,9 +234,20 @@ button {
 .projects h3,
 h1 {
   color: var(--color-of-main-text);
+  margin-bottom: 4px;
+  margin-top: 0px;
 }
 .projects p {
   color: var(--color-of-second-text);
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.projects {
+  margin: 0px;
+  padding: 0px;
+}
+.projects img {
+  margin-bottom: 20px;
 }
 .first-paragraf {
   font-weight: normal;
@@ -366,6 +382,13 @@ div b {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  outline: 2px solid tomato;
 }
 footer {
   background-color: var(--background-footer);
