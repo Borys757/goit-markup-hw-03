@@ -246,7 +246,8 @@ button:hover,
 button:focus {
   color: var(--white-color);
   background-color: var(--akcent);
-}*/
+}
+
 
 
 .buttom-secondary {
