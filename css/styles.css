@@ -69,6 +69,7 @@ a {
 .logo.secondary {
   font-size: 22px;
   line-height: 1.18;
+  margin-bottom: 10px;
 }
 span {
   color: var(--akcent);
@@ -232,19 +233,21 @@ button:focus {
 }
 button {
   font-family: roboto, sans-serif;
+  border-radius: 4px;
   letter-spacing: 0.03em;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
 }
-.buttons .button + .button {
+.buttons li + li {
   margin-left: 8px;
 }
 .buttons {
   display: flex;
   justify-content: center;
   padding-left: 0px;
-  margin: 0px;
+  margin-bottom: 50px;
+  margin-top: 0px;
 }
 .icon:hover,
 .icon:focus {
@@ -263,8 +266,12 @@ button {
   text-align: center;
 }
 .feathure-title {
+  display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+.feathure-title .item + .item {
+  margin-left: 30px;
 }
 
 /*In general hear shold have been the second page*/
@@ -337,6 +344,9 @@ h1 {
   margin: 0px;
 }
 .section.feathure p {
+  text-align: center;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--white-color);
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -348,6 +358,12 @@ h1 {
   padding-bottom: 94px;
 
   margin-bottom: 0px;
+}
+.team-title {
+  display: flex;
+}
+.team-title .item + .item {
+  margin-left: 30px;
 }
 .section.team ul {
   padding: 0px;
@@ -362,7 +378,12 @@ h1 {
   margin-top: 0px;
   color: var(--color-of-main-text);
 }
+.logotips {
+  display: flex;
+  justify-content: space-evenly;
+}
 .section.team .own-name {
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -372,6 +393,7 @@ h1 {
   margin-top: 0px;
 }
 .section.team .own-skills {
+  text-align: center;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
@@ -396,11 +418,15 @@ h1 {
 
   margin-bottom: 0px;
 }
-.section.clients ul {
-  padding: 0px;
-  margin: 0px;
+.section.clients .item {
+  display: flex;
+  padding-left: 0px;
+}
+.item .item-box + .item-box {
+  margin-left: 30px;
 }
 address {
+  padding-top: 48px;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -427,6 +453,8 @@ div b {
   color: var(--footer-text);
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-top: 18px;
+  padding-bottom: 21px;
 }
 .main-name {
   font-weight: 900;
@@ -440,8 +468,30 @@ div b {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 footer {
   background-color: var(--background-footer);
   padding-top: 56px;
   padding-bottom: 21px;
+}
+.container-footer {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+.connect-icon {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+.connect {
+  margin-left: 69px;
+}
+.connect b {
+  margin-bottom: 21px;
+  outline: 2px solid tomato;
 }
