@@ -36,7 +36,7 @@ html {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  width: 1230px;
+  width: 1200px;
 }
 /*body*/
 body {
@@ -195,7 +195,7 @@ footer {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  width: 1230px;
+  width: 1200px;
 }
 
 /* banner */
@@ -397,6 +397,7 @@ h1 {
   margin-bottom: 0px;
 }
 .team-title {
+  background-color: var(--white-color);
   display: flex;
 }
 .team-title .item + .item {
@@ -517,7 +518,7 @@ footer {
 }
 .container-footer {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 28px;
