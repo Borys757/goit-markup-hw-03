@@ -304,8 +304,11 @@ button {
 }
 .feathure-title {
   display: flex;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+.feathure-title .item {
+  min-width: 370px;
 }
 .feathure-title .item + .item {
   margin-left: 30px;
@@ -376,10 +379,7 @@ h1 {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.feathure-title {
-  padding: 0px;
-  margin: 0px;
-}
+  
 .section.feathure p {
   text-align: center;
   background-color: rgba(47, 48, 58, 0.8);
@@ -388,6 +388,10 @@ h1 {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .section.team {
   background-color: var(--second-color-background);
@@ -397,9 +401,15 @@ h1 {
   margin-bottom: 0px;
 }
 .team-title {
-  background-color: var(--white-color);
   display: flex;
 }
+.team-title .item {
+  min-width: 270px;
+  background-color: var(--white-color);
+  border-radius: 4px;
+  padding-bottom: 36px;
+}
+
 .team-title .item + .item {
   margin-left: 30px;
 }
@@ -439,9 +449,6 @@ h1 {
   margin-top: 0px;
 }
 
-.team-title img {
-  margin-bottom: 30px;
-}
 .section.clients .section-title {
   font-weight: bold;
   font-size: 36px;
@@ -459,6 +466,8 @@ h1 {
 .section.clients .item {
   display: flex;
   padding-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 .item .item-box + .item-box {
   margin-left: 30px;
@@ -525,6 +534,7 @@ footer {
   margin-right: auto;
   margin-left: auto;
   display: flex;
+  justify-content:space-between;
 }
 .connect-icon {
   display: flex;
@@ -535,9 +545,7 @@ footer {
 .connect-icon .icon + .icon {
   margin-left: 10px;
 }
-.connect {
-  margin-left: 69px;
-}
+
 .connect b {
   display: inline-block;
   margin-bottom: 21px;
@@ -545,9 +553,7 @@ footer {
 .location {
   margin-right: ;
 }
-.sending {
-  margin-left: 94px;
-}
+
 .sending b {
   display: inline-block;
   margin-bottom: 21px;
